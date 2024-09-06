@@ -17,6 +17,10 @@ const config: Config = {
     extend: {
       borderRadius: {
         14: '14px',
+        20: '20px',
+      },
+      fontFamily: {
+        inter: ['--font-inter'],
       },
       colors: {
         background: 'hsl(var(--background))',

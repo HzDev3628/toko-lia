@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Home() {
   return (
-    <section className="flex flex-col w-full">
+    <section className="flex flex-col w-full border-x border-border/20">
       <div className="flex flex-col px-2.5 sm:px-10 gap-10">
         <div className="w-full flex flex-col items-center border-x">
           <span className="text-lg my-1.5">TOKO</span>
