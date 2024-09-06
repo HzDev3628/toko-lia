@@ -51,7 +51,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${nippo.className} ${inter.variable} font-normal antialiased relative px-2.5 lg:px-10`}
+        className={`${nippo.className} ${inter.variable} font-normal antialiased relative px-2.5 lg:px-10 text-foreground`}
       >
         <Header />
         <main className="flex flex-col items-center container font-medium">
