@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import localFont from 'next/font/local'
 import './globals.css'
-import { Header } from '@/app/widgets'
+import { Header } from '@/app/_widgets'
 
 const nippo = localFont({
   src: [
