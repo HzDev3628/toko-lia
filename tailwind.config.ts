@@ -8,6 +8,12 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    container: {
+      center: true,
+      screens: {
+        '2xl': '1440px',
+      },
+    },
     extend: {
       borderRadius: {
         14: '14px',

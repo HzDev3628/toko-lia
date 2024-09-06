@@ -1,7 +1,7 @@
 import type { Metadata } from 'next'
 import localFont from 'next/font/local'
 import './globals.css'
-import { Header } from '@/app/_widgets'
+import { Footer, Header } from '@/app/_widgets'
 
 const nippo = localFont({
   src: [
@@ -41,9 +41,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${nippo.className} font-normal antialiased relative`}>
+      <body className={`${nippo.className} font-normal antialiased relative px-2.5 sm:px-10`}>
         <Header />
-        {children}
+        <main className="flex flex-col items-center container border-l border-r border-border/20 font-medium">
+          {children}
+        </main>
+        <Footer />
       </body>
     </html>
   )
