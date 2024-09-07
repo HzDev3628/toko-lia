@@ -8,18 +8,21 @@ export default function AboutUs() {
     <section className="flex flex-col w-full">
       <div className="flex flex-col w-full border-x border-border/20 px-2.5 lg:px-10">
         <div className="w-full flex flex-col items-center border-x">
-          <Link href={'/'} className="text-lg my-1.5 text-foreground hover:text-accent-foreground transition-colors duration-300">
+          <Link
+            href={'/'}
+            className="text-lg my-1.5 text-foreground hover:text-accent-foreground transition-colors duration-300"
+          >
             TOKO
           </Link>
-          <div className="w-full h-[353px] flex items-center justify-center text-4xl sm:text-6xl text-center border-y relative">
+          <div className="w-full h-[130px] sm:h-[200px] lg:h-[353px] flex items-center justify-center text-4xl sm:text-6xl text-center border-y relative">
             <Image
+              width={1440}
+              height={353}
+              className="w-full h-[130px] sm:h-[200px] lg:h-[353px]"
               alt="Image Hero"
-              objectFit="cover"
-              fill
-              className="w-full h-[353px]"
               src={'/about-us.png'}
             />
-            <span className="absolute left-20 text-background">ABOUT US</span>
+            <span className="absolute left-20 text-[#F0F0F0]">ABOUT US</span>
           </div>
         </div>
 

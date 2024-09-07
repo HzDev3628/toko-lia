@@ -20,7 +20,7 @@ export default function Home() {
               objectFit="cover"
               fill
             />
-            <span className="absolute left-1/2 -translate-x-1/2 z-0 text-4xl">
+            <span className="absolute left-1/2 -translate-x-1/2 z-0 text-4xl lg:text-6xl">
               We will help you create a successful path in commercial real
               estate
             </span>

@@ -14,15 +14,15 @@ export default function ContractsPage() {
           >
             TOKO
           </Link>
-          <div className="w-full h-[353px] flex items-center justify-center text-4xl sm:text-6xl text-center border-y relative">
+          <div className="w-full h-[130px] sm:h-[200px] lg:h-[353px] flex items-center justify-center text-4xl sm:text-6xl text-center border-y relative">
             <Image
-              objectFit="cover"
-              fill
-              className="w-full h-[353px]"
+              width={1440}
+              height={353}
+              className="w-full h-[130px] sm:h-[200px] lg:h-[353px]"
               src={'/contracts.png'}
               alt="Image Hero"
             />
-            <span className="absolute left-20 text-background">CONTACTS</span>
+            <span className="absolute left-20 text-[#F0F0F0]">CONTACTS</span>
           </div>
         </div>
 
