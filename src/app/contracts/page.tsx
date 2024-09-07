@@ -33,7 +33,7 @@ export default function ContractsPage() {
             <span>
               <span className="text-accent-foreground">Call us: </span>
               +374 44 777815
-            </span>{' '}
+            </span>
             <span>
               <span className="text-accent-foreground">Write to us: </span>
               office@toko.am

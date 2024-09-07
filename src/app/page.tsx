@@ -6,7 +6,7 @@ export default function Home() {
       <div className="flex flex-col px-2.5 sm:px-10 gap-10">
         <div className="w-full flex flex-col items-center border-x">
           <span className="text-lg my-1.5">TOKO</span>
-          <div className="w-full h-[353px] bg-[url('/section-1.avif')] flex items-center justify-center text-4xl sm:text-6xl text-center border-y">
+          <div className="w-full h-[353px] bg-[url('/main-page.avif')] flex items-center justify-center text-4xl sm:text-6xl text-center border-y">
             <span>
               We will help you create a successful <br /> path in commercial
               real estate
