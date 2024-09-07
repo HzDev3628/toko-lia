@@ -1,3 +1,6 @@
+'use client'
+import { DotLottieReact } from '@lottiefiles/dotlottie-react'
+
 export default function ContractsPage() {
   return (
     <section className="flex flex-col w-full">
@@ -10,9 +13,17 @@ export default function ContractsPage() {
         </div>
 
         <div className="flex flex-col items-start px-2.5 py-10 sm:p-20 pb-10 gap-12 border-x border-b">
-          <h3 className="text-2xl lg:text-4xl text-accent-foreground text-center">
-            We would be happy to answer your questions!
-          </h3>
+          <div className="flex w-full items-center justify-between">
+            <h3 className="text-2xl lg:text-4xl text-accent-foreground text-center">
+              We would be happy to answer your questions!
+            </h3>
+            <DotLottieReact
+              src="https://lottie.host/2a042050-d6a0-4838-aa31-649390c9dd0b/m0Sp4IkG88.json"
+              loop
+              autoplay
+              className="max-w-[150px] w-full"
+            />
+          </div>
           <div className="flex flex-col items-start w-full text-2xl">
             <span>
               <span className="text-accent-foreground">Visit us: </span>

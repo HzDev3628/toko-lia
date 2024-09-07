@@ -1,4 +1,6 @@
+'use client'
 import { cn } from '@/lib/utils'
+import { DotLottieReact } from '@lottiefiles/dotlottie-react'
 
 export default function ServicesPage() {
   return (
@@ -23,6 +25,12 @@ export default function ServicesPage() {
           </span>
         </div>
       </div>
+      <DotLottieReact
+        src="https://lottie.host/51c0a44b-b6e0-46bc-8ace-7e66737827d4/n41o5t6BVZ.json"
+        loop
+        autoplay
+        className="max-w-[600px] w-full mx-auto mt-[100px] mb-14"
+      />
       <div className="mx-auto max-w-[1024px] w-full flex flex-col gap-5 my-[100px]">
         {LIST.map((value, index) => (
           <article

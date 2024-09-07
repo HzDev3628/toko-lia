@@ -1,3 +1,6 @@
+'use client'
+import { DotLottieReact } from '@lottiefiles/dotlottie-react'
+
 export default function AboutUs() {
   return (
     <section className="flex flex-col w-full">
@@ -40,8 +43,14 @@ export default function AboutUs() {
           </span>
         </div>
       </div>
+      <DotLottieReact
+        src="https://lottie.host/3446f3a1-8946-4789-a31a-60fd12336c62/DrFAgq4Qmx.json"
+        loop
+        autoplay
+        className="max-w-[600px] w-full mx-auto mt-[100px] mb-14"
+      />
 
-      <div className="mx-auto max-w-[1024px] w-full flex flex-col gap-5 my-[100px]">
+      <div className="mx-auto max-w-[1024px] w-full flex flex-col gap-5 mb-[100px]">
         <div className="w-full flex flex-col items-start p-[30px] rounded-20 bg-accent-foreground text-white">
           <h3 className="text-xl">John Gould</h3>
           <span className="font-light">
