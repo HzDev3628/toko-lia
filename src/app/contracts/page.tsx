@@ -1,14 +1,25 @@
 'use client'
 import { DotLottieReact } from '@lottiefiles/dotlottie-react'
+import Image from 'next/image'
+import Link from 'next/link'
 
 export default function ContractsPage() {
   return (
     <section className="flex flex-col w-full">
       <div className="flex flex-col w-full border-x border-border/20 px-2.5 lg:px-10">
         <div className="w-full flex flex-col items-center border-x">
-          <span className="text-lg my-1.5">TOKO</span>
-          <div className="w-full h-[253px] bg-[url('/contracts.png')] flex items-center justify-start text-4xl sm:text-6xl text-center border-y text-[#F0F0F0] px-20 uppercase">
-            <span>Services</span>
+          <Link href={'/'} className="text-lg my-1.5">
+            TOKO
+          </Link>
+          <div className="w-full h-[130px] sm:h-[200px] lg:h-[353px] flex items-center justify-center text-4xl sm:text-6xl text-center border-y relative">
+            <Image
+              width={1440}
+              height={353}
+              className="w-full h-[130px] sm:h-[200px] lg:h-[353px]"
+              src={'/contracts.png'}
+              alt="Image Hero"
+            />
+            <span className="absolute left-20 text-background">CONTACTS</span>
           </div>
         </div>
 

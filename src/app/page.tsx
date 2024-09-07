@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import Link from 'next/link'
 
 export default function Home() {
@@ -5,9 +6,18 @@ export default function Home() {
     <section className="flex flex-col w-full border-x border-border/20">
       <div className="flex flex-col px-2.5 sm:px-10 gap-10">
         <div className="w-full flex flex-col items-center border-x">
-          <span className="text-lg my-1.5">TOKO</span>
-          <div className="w-full h-[353px] bg-[url('/main-page.avif')] flex items-center justify-center text-4xl sm:text-6xl text-center border-y">
-            <span>
+          <Link href="/" className="text-lg my-1.5">
+            TOKO
+          </Link>
+          <div className="w-full h-[130px] sm:h-[200px] lg:h-[353px]  flex items-center justify-center text-4xl sm:text-6xl text-center border-y relative z-0">
+            <Image
+              width={1440}
+              height={353}
+              className="w-full h-[130px] sm:h-[200px] lg:h-[353px]"
+              src={'/main-page.avif'}
+              alt="Image Hero"
+            />
+            <span className="absolute left-1/2 -translate-x-1/2 z-0">
               We will help you create a successful <br /> path in commercial
               real estate
             </span>
