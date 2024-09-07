@@ -16,7 +16,7 @@ export const Header = () => {
         <Link
           key={href}
           href={href}
-          className="text-base lg:text-lg text-popover-foreground font-medium"
+          className="text-base lg:text-lg text-popover-foreground font-medium hover:text-accent-foreground transition-colors duration-300"
         >
           {title}
         </Link>

@@ -8,14 +8,17 @@ export default function ContractsPage() {
     <section className="flex flex-col w-full">
       <div className="flex flex-col w-full border-x border-border/20 px-2.5 lg:px-10">
         <div className="w-full flex flex-col items-center border-x">
-          <Link href={'/'} className="text-lg my-1.5">
+          <Link
+            href={'/'}
+            className="text-lg my-1.5 hover:text-accent-foreground transition-colors duration-300"
+          >
             TOKO
           </Link>
-          <div className="w-full h-[130px] sm:h-[200px] lg:h-[353px] flex items-center justify-center text-4xl sm:text-6xl text-center border-y relative">
+          <div className="w-full h-[353px] flex items-center justify-center text-4xl sm:text-6xl text-center border-y relative">
             <Image
-              width={1440}
-              height={353}
-              className="w-full h-[130px] sm:h-[200px] lg:h-[353px]"
+              objectFit="cover"
+              fill
+              className="w-full h-[353px]"
               src={'/contracts.png'}
               alt="Image Hero"
             />
